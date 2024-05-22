@@ -23,17 +23,6 @@ export const ArticlesContainer = () => {
   return (
     <section className="md:flex md:flex-wrap md:place-content-between md:gap-10 md:justify-center"> 
 
-    {
-      // articles.map(article => 
-      //   <Article 
-      //     key={article.publishedAt}
-      //     img={article.urlToImage}
-      //     number='01'
-      //     title={article.title}
-      //     text={article.description}
-      //   />)
-    }
-
       <Article
         img={img1}
         number='01'
